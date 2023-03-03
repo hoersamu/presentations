@@ -1,0 +1,15 @@
+{
+  "name": "slidev",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open -p 3000",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.3",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "vue": "^3.2.47"
+  }
+}
